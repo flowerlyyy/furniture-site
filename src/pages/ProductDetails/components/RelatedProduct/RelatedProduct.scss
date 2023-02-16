@@ -1,0 +1,18 @@
+.related-products{
+    max-width: 1167px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 126px;
+}
+.related-products .related-heading{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #101750;
+}
+.four-related-products{
+    display: flex;
+    gap: 29px;
+    padding-top: 47px;
+}

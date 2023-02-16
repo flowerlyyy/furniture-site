@@ -1,0 +1,79 @@
+.login-frame{
+    max-width: 544px;
+height: 474px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px 10px #F8F8FB;
+margin-right: auto;
+margin-left: auto;
+margin-top: 120px;
+}
+.login{
+    margin-left: 57px;
+}
+.login .signin-heading{
+    font-family: 'Josefin Sans';
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+.login .signin-paragraph{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+color: #9096B2;
+text-align: center;
+margin: 0;
+}
+.login .signin-input{
+    width: 412px;
+height: 52px;
+background: #FFFFFF;
+border: 1px solid #C2C5E1;
+border-radius: 2px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #9096B2;
+padding-left: 16px;
+}
+.login .forgot-password{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+color: #9096B2;
+text-decoration: none;
+}
+.login .signin-button{
+width: 432px;
+height: 47px;
+background: #FB2E86;
+border-radius: 3px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+color: #FFFFFF;
+border: none;
+margin-top: 23px;
+}
+.login .have-account{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+color: #9096B2;
+text-align: center;
+padding-top: 28px;
+text-decoration: none;
+}

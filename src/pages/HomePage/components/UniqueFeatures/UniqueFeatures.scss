@@ -1,0 +1,70 @@
+.common-sofa{
+    background: #F1F0FF;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 135px;
+}
+.unique-features{
+    display: flex;
+    justify-content: center;
+}
+.second{
+    padding-top: 97px;
+}
+.unique-features .paragraph{
+    font-family: 'Josefin Sans';
+font-size: 35px;
+line-height: 132%;
+color: #151875;
+margin: 0;
+}
+.list-features {
+    padding-top: 16px;
+    margin: 0;
+    padding-left: 30px;
+}
+.list-features  .red-circle{
+    color: #FB2E86;
+    font-size: 30px;
+}
+.list-features  .blue-circle{
+    color: #00008B;
+    font-size: 30px;
+}
+.list-features  .green-circle{
+    color: #00FFFF;
+    font-size: 30px;
+}
+li span{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 132%;
+color: #ACABC3;
+padding-top: 13px;
+}
+.cards{
+    display: flex;
+    gap: 19px;
+   margin-top: 38px;
+}
+.cards .addcard{
+    background: #FB2E86;
+border-radius: 2px;
+width: 157px;
+height: 45px;
+font-family: 'Josefin Sans';
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+border-color: white;
+}
+.cards .value{
+    font-family: 'Josefin Sans';
+font-size: 14px;
+line-height: 16px;
+color: #151875;
+}

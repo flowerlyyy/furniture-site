@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { HomePage } from './pages/HomePage/HomePage';
+import {Footer} from './pages/Footer/Footer';
+import { Header } from './pages/Header/Header';
+import { FAQ } from './pages/FAQ/FAQ';
+import { NotFound } from './pages/NotFound/NotFound';
+import { ContactUs } from './pages/ContactUs/ContactUs';
+import { LoginPage } from './pages/LoginPage/LoginPage';
+import { AboutUs } from './pages/AboutUs/AboutUs';
+import { OrderCompleted } from './pages/OrderCompleted/OrderCompleted';
+import { Route, Routes } from 'react-router-dom';
+import { ProductGrid } from './pages/GridDefault/components/ProductGrid/ProductGrid';
+import { GridDefault } from './pages/GridDefault/GridDefault';
+import { ShopList } from './pages/ShopList/ShopList';
+import { ProductDetails } from './pages/ProductDetails/ProductDetails';
+import { ShoppingCard } from './pages/ShoppingCard/ShoppingCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <main>
+      <Routes>
+        <Route path="/" element={<HomePage  />} />
+        <Route path="/faq" element={<FAQ  />} />
+        <Route path="/not-found" element={<NotFound  />} />
+        <Route path="/contact-us" element={<ContactUs  />} />
+        <Route path="/login" element={<LoginPage  />} />
+        <Route path="/about-us" element={<AboutUs  />} />
+        <Route path="/grid-default" element={<GridDefault />} />
+        <Route path="/shop-list" element={<ShopList  />} />
+        <Route path="/order-completed" element={<OrderCompleted  />} />
+        <Route path="/product-details" element={<ProductDetails />} />
+        <Route path="/shopping-card" element={<ShoppingCard  />} />
+      </Routes>
+                </main>
+      <Footer/>
     </div>
   );
 }

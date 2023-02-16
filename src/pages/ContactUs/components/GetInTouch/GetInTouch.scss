@@ -1,0 +1,54 @@
+.get-in-touch{
+    display: flex;
+    max-width: 1275px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    gap: 16px;
+}
+.touch-answer .touch-heading{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 48px;
+    color: #151875;
+    margin: 0;
+}
+.touch-answer .touch-paragraph{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #8A8FB9;
+padding-top: 20px;
+margin: 0;
+}
+.name-email{
+    display:flex;
+    gap: 24px;
+    padding-top: 46px;
+}
+.touch-answer .touch-input{
+    border: 1px solid rgba(164, 182, 200, 0.7);
+border-radius: 3px;
+padding-left: 11px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.01em;
+color: #8A8FB9;
+}
+.touch-answer .touch-send{
+    background: #FB2E86;
+border-radius: 3px;
+width: 157px;
+height: 44px;
+font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+border: none;
+margin-top: 33px;
+}

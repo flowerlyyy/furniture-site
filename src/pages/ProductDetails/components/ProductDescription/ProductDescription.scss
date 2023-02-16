@@ -1,0 +1,125 @@
+.product-information{
+    background: #FFFFFF;
+box-shadow: 0px 0px 25px 10px #F6F4FD;
+border-radius: 2px;
+max-width: 1170px;
+height: 509px;
+margin-right: auto;
+margin-left: auto;
+display: flex;
+gap: 41px;
+margin-top: 121px;
+}
+.product-images{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 21px;
+    padding-top: 13px;
+    padding-left: 13px;
+    row-gap: 3px;
+}
+.product-images .three-images{
+    grid-row: 1 / span 3;
+}
+.product-fact{
+    padding-top: 74px;
+}
+.product-fact .product-name{
+    font-family: 'Josefin Sans';
+font-size: 36px;
+line-height: 42px;
+color: #0D134E;
+margin: 0;
+}
+.rating22{
+    display: flex;
+    gap: 5px;
+    height: 18px;
+}
+.rating22 .rating-image{
+    width: 69px;
+    height: 12px;
+    padding-top: 21px;
+}
+.rating22 .rating-second{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #151875;  
+}
+.dollar-change{
+    display: flex;
+    gap: 18px;
+    height: 39px;
+    padding-top: 16px;
+}
+.dollar-change .new-dollar{
+    font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 29px;
+text-transform: capitalize;
+color: #151875;
+}
+.dollar-change .old-dollar{
+    font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 29px;
+text-decoration-line: line-through;
+text-transform: capitalize;
+color: #FB2E86;
+}
+.product-fact .product-color{
+    font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 19px;
+color: #0D134E;
+margin: 0;
+padding-top: 12px;
+}
+.product-fact .detail-paragraph{
+    font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 29px;
+color: #A9ACC6;
+margin: 0;
+padding-top: 12px;
+}
+.add-card{
+    display: flex;
+    gap: 20px;
+    height: 59px;
+    padding-left: 74px;
+}
+.add-card .add-heading{
+    font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 29px;
+text-transform: capitalize;
+color: #151875;
+}
+.add-card .heart-icon{
+    width: 31px;
+    height: 31px;
+    margin-top: 8px;
+}
+.product-fact .category-tag-share{
+    font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 29px;
+color: #151875;
+margin: 0;
+}
+.share-media{
+    display: flex;
+    gap: 16px;
+}
+.media-icons{
+    display: flex;
+    gap: 10px;
+    padding-top: 17px;
+}
+.media-icons .media-image{
+    width: 12px;
+    height: 12px;
+}

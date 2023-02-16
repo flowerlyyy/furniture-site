@@ -1,0 +1,83 @@
+.discount-item{
+    margin-top: 128px;
+    max-width: 1214px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.discount-item .discount-heading{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    text-align: center;
+    }
+    .discount-item .types{
+        display:flex ;
+    gap: 30px;
+    justify-content: center;
+    }
+    .discount-item .chair-type{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151875;
+    margin: 0;
+    }
+    .discount-of-products{
+        display: flex;
+        justify-content: center;
+    }
+    .twenty-discount{
+        padding-top: 111px;
+    }
+    .twenty-discount .discount-second-heading{
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #151875;
+    }
+    .twenty-discount .pink-compact{
+        font-family: 'Josefin Sans';
+    font-size: 21px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #FB2E86;
+    }
+    .twenty-discount .discount-paragraph{
+        font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B7BACB;
+    }
+    .twenty-discount .sofa-features{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B8B8DC;
+    display: grid;
+    grid-template-columns: 240px 240px;
+    padding-left: 25px;
+    list-style-type: disclosure-open;
+    }
+    .twenty-discount .discount-button{
+        background: #FB2E86;
+    border-radius: 2px;
+    width: 200px;
+    height: 57px;
+    font-family: 'Josefin Sans';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: white;
+    }

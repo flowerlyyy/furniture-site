@@ -1,0 +1,63 @@
+.information-contact{
+    max-width: 1191px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    display: flex;
+    gap: 117px;
+    height: 225px;
+}
+.contact-us-part .information-first-heading{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 48px;
+    color: #151875;
+    margin: 0;
+}
+.contact-us-part .information-paragraph{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8A8FB9;
+    padding-top: 13px;
+    margin: 0;
+}
+.contact-us-part .three-circle{
+    padding-top: 50px;
+}
+.contact-way .way-heading{
+    font-family: 'Josefin Sans';
+font-size: 36px;
+line-height: 48px;
+color: #151875;
+margin: 0;
+}
+.circle-contact{
+    display: grid;
+    grid-template-columns: 237px 237px;
+    gap: 37px;
+    row-gap: 49px;
+    margin-top: 26px;
+}
+.contact-part{
+    display: flex;
+    gap: 15px;
+}
+.contact-part .colored-circle{
+    width: 45px;
+    height: 45px;
+}
+.phone-gmail{
+     margin-top: 5px;
+}
+.phone-gmail .contact-address{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+color: #8A8FB9;
+margin: 0;
+}

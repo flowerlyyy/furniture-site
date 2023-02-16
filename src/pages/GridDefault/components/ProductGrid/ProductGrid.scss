@@ -1,0 +1,79 @@
+.accesories-grid{
+    max-width: 1239px;
+    height: 1439px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 124px;
+    margin-bottom :60px;
+}
+.shop-accesories{
+    display: flex;
+    gap: 180px;
+    
+}
+.fashion-item .fashion-heading{
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    line-height: 26px;
+    color: #151875;
+    margin: 0;
+}
+.fashion-item .fashion-results{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #8A8FB9;
+margin: 0;
+padding-top: 8px;
+}
+.page-sort{
+    display: flex;
+    gap: 26px;
+}
+.page-sort .per-page{
+    display: flex;
+    gap: 8px;
+}
+.page-sort .page-sort-heading{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #3F509E;
+}
+.per-page .per-page-input{
+    width:55px;
+height: 25px;
+border-color: #E7E6EF;
+margin-top: 7px;
+}
+.page-sort .sort-by{
+    display: flex;
+    gap: 8px;
+}
+.page-sort .sort-by-option{
+width: 96px;
+height: 28px;
+border-color: #E7E6EF;
+margin-top: 7px;
+}
+.page-sort .view{
+    display: flex;
+    gap: 60px;
+}
+.page-sort .view-input{
+    width: 162px;
+    height: 30px;
+    border-color: #E7E6EF;
+    margin-top: 4px;
+}
+.sixteen-products{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    gap: 53px;
+    row-gap: 81px;
+    margin-top: 144px;
+}

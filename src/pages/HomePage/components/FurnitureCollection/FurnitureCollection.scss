@@ -1,0 +1,61 @@
+.furniture-collection{
+    background: #F2F0FF;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pink-sofa{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+.pink-sofa .lampa{
+    height: 387px;
+}
+.best-furniture{
+    padding-top: 203px;
+    margin-top: 0;
+    margin-left: -60px;
+}
+.best-furniture .castle{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FB2E86;
+    margin: 0;
+}
+.best-furniture .explanation{
+    font-family: 'Josefin Sans';
+font-size: 53px;
+line-height: 70px;
+letter-spacing: 0.015em;
+color: #000000;
+margin: 0;
+padding-top: 12px;
+}
+.best-furniture .text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8A8FB9;
+    margin: 0;
+    padding-top: 12px;
+}
+.best-furniture .buy-now{
+    background: #FB2E86;
+border-radius: 2px;
+font-family: 'Josefin Sans';
+font-size: 17px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+border-color: white;
+margin: 0;
+margin-top: 27px;
+width: 163px;
+height: 50px;
+}

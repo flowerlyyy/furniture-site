@@ -1,0 +1,61 @@
+.leatest-products{
+    margin-top: 71px;
+}
+.leatest-products .product-heading{
+    font-family: 'Josefin Sans';
+font-size: 42px;
+line-height: 49px;
+color: #151875;
+text-align: center;
+}
+.product-features {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.product-features span{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #151875;
+}
+.sofa-types{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 360px 360px 360px;
+    gap: 37px;
+    padding-top: 58px;
+    row-gap: 120px;
+}
+.sofa-characteristics img{
+height:270px ;
+}
+.sofa-text{
+    display: flex;
+    padding-top: 16px;
+}
+.sofa-text .handy-craft{
+    font-family: 'Josefin Sans';
+font-size: 16px;
+line-height: 19px;
+color: #151875;
+}
+.sofa-text .new-value{
+    font-family: 'Josefin Sans';
+font-size: 14px;
+line-height: 16px;
+color: #151875;
+margin: 0;
+padding-left: 100px;
+}
+.sofa-text .old-value{
+    font-family: 'Josefin Sans';
+font-size: 12px;
+line-height: 14px;
+text-decoration-line: line-through;
+color: #FB2448;
+margin: 0;
+padding-left: 8px;
+}

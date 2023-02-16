@@ -1,0 +1,109 @@
+.footer{
+    margin-top: 115px;
+}
+.footer-up{
+    background: #EEEFFB;;
+    max-width: 1920px;
+    margin-right:auto;
+    margin-left: auto;
+    height: 479px;
+}
+.footer-one-common{
+    display: flex;
+    padding-top: 94px;
+    gap: 90px;
+    padding-left: 310px;
+    row-gap: 21px;
+}
+.footer-one .footer-first-heading{
+    font-family: 'Josefin Sans';
+font-size: 38px;
+line-height: 45px;
+color: #000000;
+}
+.email-sign-up .email-adress{
+    width: 377px;
+    height: 44px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #8A8FB9;
+padding-left: 20px;
+position: absolute;
+}
+.email-sign-up .footer-sign-up{
+    background: #FB2E86;
+border-radius: 3px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #EEEFFB;
+width: 135px;
+height: 44px;
+border-color: #EEEFFB;
+position: relative;
+margin: 2px 0 0 266px;
+}
+.footer-one .contact-info{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #8A8FB9;
+}
+.footer-one .hekto-adress{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #8A8FB9;
+}
+.footer-one .footer-categories{
+font-family: 'Josefin Sans';
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+}
+.footer-one .footer-link{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 2.8;
+color: #8A8FB9;
+text-decoration: none;
+}
+.footer-down{
+    background: #E7E4F8;
+    max-width: 1920px;
+    margin-right:auto;
+    margin-left: auto;
+}
+.footer-two .all-rights{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9DA0AE;
+    padding-left: 377px;
+}
+.footer-two{
+    display: flex;
+    gap: 660px;
+}
+.media-logos{
+    display: flex;
+    gap: 17px;
+}
+.media-logos img{
+    width: 20px;
+    height: 20px;
+    padding-top: 17px;
+}
