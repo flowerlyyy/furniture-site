@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .product-part{
     width: 270px;
     height: 363px;
@@ -7,11 +8,11 @@
     height: 283px;
 }
 .product-part .product-head{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 18px;
 line-height: 21px;
 text-align: center;
-color: #151875;
+color: $color-blue2;
 margin: 0;
 padding-top: 18px;
 }
@@ -36,17 +37,17 @@ padding-top: 18px;
     padding-top: 15px;
 }
 .value-change .new-change{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 14px;
 line-height: 16px;
 text-align: center;
-color: #151875;
+color: $color-blue2;
 }
 .value-change .old-change{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 14px;
 line-height: 16px;
 text-align: center;
 text-decoration-line: line-through;
-color: #FB2E86;
+color: $color-pink;
 }

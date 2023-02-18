@@ -10,7 +10,6 @@ import { LoginPage } from './pages/LoginPage/LoginPage';
 import { AboutUs } from './pages/AboutUs/AboutUs';
 import { OrderCompleted } from './pages/OrderCompleted/OrderCompleted';
 import { Route, Routes } from 'react-router-dom';
-import { ProductGrid } from './pages/GridDefault/components/ProductGrid/ProductGrid';
 import { GridDefault } from './pages/GridDefault/GridDefault';
 import { ShopList } from './pages/ShopList/ShopList';
 import { ProductDetails } from './pages/ProductDetails/ProductDetails';

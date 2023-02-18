@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .get-in-touch{
     display: flex;
     max-width: 1275px;
@@ -7,19 +8,19 @@
     gap: 16px;
 }
 .touch-answer .touch-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 36px;
     line-height: 48px;
-    color: #151875;
+    color: $color-blue2;
     margin: 0;
 }
 .touch-answer .touch-paragraph{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 26px;
-color: #8A8FB9;
+color: $color-grey;
 padding-top: 20px;
 margin: 0;
 }
@@ -32,23 +33,23 @@ margin: 0;
     border: 1px solid rgba(164, 182, 200, 0.7);
 border-radius: 3px;
 padding-left: 11px;
-font-family: 'Lato';
+font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 letter-spacing: 0.01em;
-color: #8A8FB9;
+color: $color-grey;
 }
 .touch-answer .touch-send{
-    background: #FB2E86;
+    background: $color-pink;
 border-radius: 3px;
 width: 157px;
 height: 44px;
-font-family: 'Josefin Sans';
+font-family: $font-josefin;
 font-size: 16px;
 line-height: 26px;
-color: #FFFFFF;
+color: $color-white3;
 border: none;
 margin-top: 33px;
 }

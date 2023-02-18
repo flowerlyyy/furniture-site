@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .trending-products{
     max-width: 1169px;
     height: 659px;
@@ -6,44 +7,15 @@
     margin-left: auto;
 }
 .trending-products .trend-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 42px;
 line-height: 49px;
-color: #151875;
+color: $color-blue2;
 text-align: center;
 }
 .trending-chairs{
     display: flex;
     gap: 29px;
-}
-.product-chair .cantilever-heading{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #151875;
-}
-.number-value{
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-}
-.number-value .chair26{
-    font-family: 'Josefin Sans';
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-color: #151875;
-}
-.number-value .chair42{
-    font-family: 'Josefin Sans';
-font-size: 12px;
-line-height: 14px;
-text-align: center;
-text-decoration-line: line-through;
-color: rgba(21, 24, 117, 0.3);
 }
 .three-trending{
     display: flex;
@@ -51,7 +23,7 @@ color: rgba(21, 24, 117, 0.3);
     gap: 29px;
 }
 .black-clock{
-    background: #FFF6FB;
+    background: $color-white12;
 box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
 width: 420px;
 height: 270px;
@@ -67,24 +39,24 @@ gap: 102px;
     margin-left: 25px;
 }
 .yellow-table{
-    background: #EEEFFB;
+    background: $color-white5;
 box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
 }
 .black-yellow .product-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 26px;
 line-height: 30px;
-color: #151875;
+color: $color-blue2;
 padding-left: 25px;
 }
 .black-yellow .product-link{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 19px;
 text-decoration-line: underline;
-color: #FB2E86;
+color: $color-pink;
 }
 .link-table .table-size{
     padding-left: 83px;
@@ -102,18 +74,18 @@ color: #FB2E86;
     padding-top: 21px;
 }
 .trend-blog .executive-chair{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 19px;
-color: #151875;
+color: $color-blue2;
 margin: 0;
 }
 .trend-blog .executive-value{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 12px;
 line-height: 14px;
 text-decoration-line: line-through;
-color: #151875;
+color: $color-blue2;
 margin: 0;
 padding-top: 5px;
 }

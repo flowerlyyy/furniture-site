@@ -5,6 +5,7 @@ import profileicon from '../Header/carbon_user.png' ;
 import hearticon from '../Header/Vector (4).png' ;
 import shoppingicon from '../Header/fluent_cart-24-regular.png' ;
 import hektoicon from '../Header/Hekto.svg' ;
+import { NavBar } from '../../components/NavBar/NavBar';
 
 export const Header =()=>{
     return(
@@ -48,14 +49,7 @@ export const Header =()=>{
     <div className="header-down">
         <div className="header-two">
         <img className="hekto-icon" src={hektoicon} alt="hektoicon"/>
-        <div className="navbar">
-            <a className="navbar-text" href="#">Home</a>
-            <a className="navbar-text" href="#">Pages</a>
-            <a className="navbar-text" href="#">Products</a>
-            <a className="navbar-text" href="#">Blog</a>
-            <a className="navbar-text" href="#">Shop</a>
-            <a className="navbar-text" href="#">Contact</a>
-        </div>
+        <NavBar/>
         <form>
             <input type='text'/>
         </form>

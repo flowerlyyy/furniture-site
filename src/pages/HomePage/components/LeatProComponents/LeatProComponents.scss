@@ -1,0 +1,31 @@
+@import '../../../../variables';
+.sofa-characteristics img{
+    height:270px ;
+    }
+    .sofa-text{
+        display: flex;
+        padding-top: 16px;
+    }
+    .sofa-text .handy-craft{
+        font-family: $font-josefin;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color-blue2;
+    }
+    .sofa-text .new-value{
+        font-family: $font-josefin;
+    font-size: 14px;
+    line-height: 16px;
+    color: $color-blue2;
+    margin: 0;
+    padding-left: 100px;
+    }
+    .sofa-text .old-value{
+        font-family: $font-josefin;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: $color-red;
+    margin: 0;
+    padding-left: 8px;
+    }

@@ -1,16 +1,17 @@
+@import '../../../../variables';
 .product-box-detail .fashion-wear{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 16px;
     line-height: 19px;
-    color: #151875;
+    color: $color-blue2;
     margin: 0;
     padding-top: 20px;
 }
 .product-box-detail .product-dollar-value{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 13px;
 line-height: 15px;
-color: #151875;
+color: $color-blue2;
 padding-top: 15px;
 margin: 0;
 }

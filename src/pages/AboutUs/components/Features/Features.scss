@@ -1,50 +1,20 @@
+@import '../../../../variables';
 .shopex-offer{
     margin-top: 141px;
 }
 .shopex-offer .offer-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 42px;
 line-height: 26px;
-color: #000000;
+color: $color-black;
 text-align: center;
 }
 .shopex-offer .four-support{
     display: flex;
     justify-content: center;
 }
-.support{
-    background: #FFFFFF;
-box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
-width: 270px;
-height: 320px;
-}
-.support .icon{
-    width: 65px;
-    height: 65px;
-    padding-top: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.support .all-day{
-    font-family: 'Josefin Sans';
-    font-size: 22px;
-    line-height: 26px;
-    color: #151875;
-    text-align: center;
-    padding-top: 25px;
-}
-.support  .support-paragraph{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: rgba(26, 11, 91, 0.3);
-}
 .common-sofa{
-    background: #F1F0FF;
+    background: $color-white4;
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;

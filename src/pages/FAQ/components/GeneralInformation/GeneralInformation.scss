@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .information-questions{
     max-width: 1171px;
     margin-right: auto;
@@ -7,50 +8,50 @@
     margin-top:123px;
 }
 .general-information .information-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 36px;
 line-height: 30px; 
-color: #1D3178;
+color: $color-blue3;
 margin: 0;
 }
 .general-information .faq-question{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 17px;
 line-height: 30px;
-color: #1D3178;
+color: $color-blue3;
 padding-top: 61px;
 margin: 0;
 }
 .general-information .faq-answer{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 30px;
-color: #A1ABCC;
+color: $color-grey2;
 margin: 0;
 padding-top: 15px;
 }
 .askquestion-frame{
     width: 566px;
     height: 738px;
-    background-color: #F8F8FD;
-    border: 1px #CDCEDC;
+    background-color: $background-white2;
+    border: 1px $color-input-white;
 }
 .askquestion{
     margin-left: 46px;
 }
 .askquestion .ask-question-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 24px;
 line-height: 30px;
-color: #1D3178;
+color: $color-blue3;
 margin: 0;
 margin-top: 66px;
 }
 .askquestion .input-name{
     width: 445px;
 height: 50px;
-background: #FFFFFF;
-border: 1px solid #CDCEDC;
+background: $color-white3;
+border: 1px solid $color-input-white;
 border-radius: 5px;
 margin-top: 114px;
 padding-left: 8px;
@@ -58,8 +59,8 @@ padding-left: 8px;
 .askquestion .input-subject{
     width: 445px;
 height: 50px;
-background: #FFFFFF;
-border: 1px solid #CDCEDC;
+background: $color-white3;
+border: 1px solid $color-input-white;
 border-radius: 5px;
 margin-top: 35px;
 padding-left: 8px;
@@ -67,19 +68,19 @@ padding-left: 8px;
 .askquestion .input-message{
     width: 445px;
 height: 197px;
-background: #FFFFFF;
-border: 1px solid #CDCEDC;
+background: $color-white3;
+border: 1px solid $color-input-white;
 border-radius: 5px;
 margin-top: 45px;
 padding: 11px 0 0 8px;
 }
 .askquestion .send-mail{
-    background: #FB2E86;
+    background: $color-pink;
 border-radius: 3px;
-font-family: 'Josefin Sans';
+font-family: $font-josefin;
 font-size: 16px;
 line-height: 30px;
-color: #FFFFFF;
+color: $color-white3;
 margin-top: 41px;
 width: 156px;
 height: 48px;

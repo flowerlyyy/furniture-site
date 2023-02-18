@@ -1,9 +1,10 @@
+@import '../../../../variables';
 .clientsay-frame{
     max-width: 1920px;
     height: 506px;
     margin-left: auto;
     margin-right: auto;
-    background: #FBFBFF;
+    background: $color-white2;
     margin-top: 133px;
 }
 .client-say{
@@ -13,10 +14,10 @@
     margin-right: auto;
 }
 .client-say .client-first-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 42px;
 line-height: 26px;
-color: #000000;
+color: $color-black;
 margin: 0;
 text-align: center;
 }
@@ -25,7 +26,7 @@ text-align: center;
     padding-left: 249px;
 }
 .client-say .client-second-heading{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -35,22 +36,22 @@ margin: 0;
 padding-top: 25px;
 }
 .client-say .client-third-heading{
-    font-family: 'Lato';
+    font-family: $font-lato;
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
     line-height: 26px;
-    color: #8A8FB9;
+    color: $color-grey;
     text-align: center;
     margin: 0;
 }
 .client-say .client-paragraph{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 26px;
 text-align: center;
-color: #8A8FB9;
+color: $color-grey;
 padding-top: 14px;
 }

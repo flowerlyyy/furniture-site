@@ -1,8 +1,9 @@
+@import './../../variables';
 .footer{
     margin-top: 115px;
 }
 .footer-up{
-    background: #EEEFFB;;
+    background: $color-white5;
     max-width: 1920px;
     margin-right:auto;
     margin-left: auto;
@@ -16,82 +17,82 @@
     row-gap: 21px;
 }
 .footer-one .footer-first-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 38px;
 line-height: 45px;
-color: #000000;
+color: $color-black;
 }
 .email-sign-up .email-adress{
     width: 377px;
     height: 44px;
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-color: #8A8FB9;
+color: $color-grey;
 padding-left: 20px;
 position: absolute;
 }
 .email-sign-up .footer-sign-up{
-    background: #FB2E86;
+    background: $color-pink;
 border-radius: 3px;
-font-family: 'Roboto';
+font-family: $font-roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-color: #EEEFFB;
+color: $color-white5;
 width: 135px;
 height: 44px;
-border-color: #EEEFFB;
+border-color: $color-white5;
 position: relative;
 margin: 2px 0 0 266px;
 }
 .footer-one .contact-info{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-color: #8A8FB9;
+color: $color-grey;
 }
 .footer-one .hekto-adress{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-color: #8A8FB9;
+color: $color-grey;
 }
 .footer-one .footer-categories{
-font-family: 'Josefin Sans';
+font-family: $font-josefin;
 font-size: 22px;
 line-height: 26px;
-color: #000000;
+color: $color-black;
 }
 .footer-one .footer-link{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 2.8;
-color: #8A8FB9;
+color: $color-grey;
 text-decoration: none;
 }
 .footer-down{
-    background: #E7E4F8;
+    background: $color-white6;
     max-width: 1920px;
     margin-right:auto;
     margin-left: auto;
 }
 .footer-two .all-rights{
-    font-family: 'Lato';
+    font-family: $font-lato;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #9DA0AE;
+    color: $color-grey3;
     padding-left: 377px;
 }
 .footer-two{

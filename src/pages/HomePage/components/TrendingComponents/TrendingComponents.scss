@@ -1,0 +1,30 @@
+@import '../../../../variables';
+.product-chair .cantilever-heading{
+    font-family: $font-lato;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: $color-blue2;
+}
+.number-value{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.number-value .chair26{
+    font-family: $font-josefin;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: $color-blue2;
+}
+.number-value .chair42{
+    font-family: $font-josefin;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+text-decoration-line: line-through;
+color: rgba(21, 24, 117, 0.3);
+}

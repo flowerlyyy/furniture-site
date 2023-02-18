@@ -1,11 +1,12 @@
+@import '../../../../variables';
 .top-categories{
     margin-top: 79px;
 }
 .top-categories .top-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 42px;
 line-height: 49px;
-color: #151875;
+color: $color-blue2;
 text-align: center;
 }
 .chair-choices{
@@ -14,26 +15,4 @@ text-align: center;
     justify-content: center;
     margin: 0;
     padding-top: 56px;
-}
-.lcwchair{
-    width: 269px;
-    height: 269px;
-}
-.chair-box .mini-chair{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 20px;
-color: #151875;
-text-align: center;
-}
-.chair-box .value-dolar{
-    font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-color: #151875;
-text-align: center;
 }

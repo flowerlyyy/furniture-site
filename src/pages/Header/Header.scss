@@ -1,18 +1,19 @@
+@import './../../variables';
 .header{
     max-width: 1920px;
     margin-right: auto;
     margin-left: auto;
 }
 .header-text-style{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 16px;
-color: #F1F1F1;
+color: $color-white7;
 }
 .header-up{
-    background: #7E33E0;
+    background: $color-violin2;
     display: flex;
 }
 .header-one{
@@ -67,14 +68,14 @@ color: #F1F1F1;
 .language-option{
 width: 100px;
 height: 20px;
-background-color: #7E33E0;
+background-color: $color-violin2;
 margin-top: 14px;
 border: none;
 }
 .value-option{
     width: 80px;
     height: 20px;
-    background-color: #7E33E0;
+    background-color: $color-violin2;
    margin-top: 14px;
    border: none;
 }
@@ -100,25 +101,11 @@ border: none;
     height: 34px;
     padding-top: 22px;
 }
-.header-down .navbar{
-    display:flex;
-    gap: 35px;
-    justify-content: center;
-    align-items: center;
-}
-.navbar .navbar-text{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #0D0E43;
-    text-decoration: none;
-}
+
 form input{
     width: 317px;
     height: 40px;
-    border: 2px solid #E7E6EF;
+    border: 2px solid $color-clear-white;
     display: flex;
     display: flex;
     justify-content: center;

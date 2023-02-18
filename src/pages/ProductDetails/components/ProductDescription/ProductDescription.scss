@@ -1,6 +1,7 @@
+@import '../../../../variables';
 .product-information{
-    background: #FFFFFF;
-box-shadow: 0px 0px 25px 10px #F6F4FD;
+    background: $color-white3;
+box-shadow: 0px 0px 25px 10px $color-white10;
 border-radius: 2px;
 max-width: 1170px;
 height: 509px;
@@ -25,10 +26,10 @@ margin-top: 121px;
     padding-top: 74px;
 }
 .product-fact .product-name{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 36px;
 line-height: 42px;
-color: #0D134E;
+color: $color-blue4;
 margin: 0;
 }
 .rating22{
@@ -42,11 +43,11 @@ margin: 0;
     padding-top: 21px;
 }
 .rating22 .rating-second{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 14px;
     line-height: 29px;
     text-transform: capitalize;
-    color: #151875;  
+    color: $color-blue2;  
 }
 .dollar-change{
     display: flex;
@@ -55,33 +56,33 @@ margin: 0;
     padding-top: 16px;
 }
 .dollar-change .new-dollar{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 29px;
 text-transform: capitalize;
-color: #151875;
+color: $color-blue2;
 }
 .dollar-change .old-dollar{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 29px;
 text-decoration-line: line-through;
 text-transform: capitalize;
-color: #FB2E86;
+color: $color-pink4;
 }
 .product-fact .product-color{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 19px;
-color: #0D134E;
+color: $color-blue4;
 margin: 0;
 padding-top: 12px;
 }
 .product-fact .detail-paragraph{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 29px;
-color: #A9ACC6;
+color: $color-grey6;
 margin: 0;
 padding-top: 12px;
 }
@@ -92,11 +93,11 @@ padding-top: 12px;
     padding-left: 74px;
 }
 .add-card .add-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 29px;
 text-transform: capitalize;
-color: #151875;
+color: $color-blue2;
 }
 .add-card .heart-icon{
     width: 31px;
@@ -104,10 +105,10 @@ color: #151875;
     margin-top: 8px;
 }
 .product-fact .category-tag-share{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 16px;
 line-height: 29px;
-color: #151875;
+color: $color-blue2;
 margin: 0;
 }
 .share-media{

@@ -1,77 +1,16 @@
+@import '../../../../variables';
 .leatest-blog{
     margin-top: 96px;
 }
 .leatest-blog .leatest-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 42px;
 line-height: 49px;
-color: #151875;
+color: $color-blue2;
 text-align: center;
 }
 .leatest-blog .room-choices{
     display: flex;
     gap: 56px;
     justify-content: center;
-}
-.room-type{
-    background-image: url(blog.png);
-    background-size: auto;
-}
-.symbol-fact{
-    display: flex;
-    gap: 30px;
-    margin: 0;
-}
-.symbol-fact .room-name{
-    display: flex;
-    gap: 8px;
-}
-.symbol-fact .room-date{
-    display: flex;
-    gap: 5px;
-}
-.symbol-fact .room-text{
-    font-family: 'Josefin Sans';
-font-size: 14px;
-line-height: 16px;
-color: #151875;
-}
-.room-name .vector-icon{
-    width: 11px;
-    height: 11px;
-    padding-top: 16px;
-}
-.room-date .calendar-icon{
-    width: 9px;
-    height: 10px;
-    padding-top: 15px;
-}
-.room-choices .essential-trends{
-    font-family: 'Josefin Sans';
-font-size: 18px;
-line-height: 21px;
-color: #151875;
-margin: 0;
-padding-top: 25px;
-}
-.room-choices .room-paragraph{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-color: #72718F;
-margin: 0;
-padding-top: 17px;
-}
-.room-choices .read-more{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-text-decoration-line: underline;
-color: #151875;
-padding-top: 14px;
-margin: 0;
 }

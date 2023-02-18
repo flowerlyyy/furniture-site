@@ -1,0 +1,23 @@
+@import '../../../../variables';
+.lcwchair{
+    width: 269px;
+    height: 269px;
+}
+.chair-box .mini-chair{
+    font-family: $font-josefin;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: $color-blue2;
+text-align: center;
+}
+.chair-box .value-dolar{
+    font-family: $font-josefin;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: $color-blue2;
+text-align: center;
+}

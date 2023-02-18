@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .page-not-found{
     max-width: 913px;
     margin-right: auto;
@@ -7,10 +8,10 @@
     width: 165px;
 height: 44px;
 border-radius: 3px;
-font-family: 'Josefin Sans';
+font-family: $font-josefin;
 font-size: 16px;
 line-height: 26px;
-color: #FFFFFF;
-background-color: #FF1493;
+color: $color-white3;
+background-color: $color-pink3;
 border: none;
 }

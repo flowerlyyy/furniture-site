@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .tick-order{
     max-width: 1138px;
    height: 423px;
@@ -10,32 +11,32 @@
 font-size: 36px;
 line-height: 42px;
 text-align: center;
-color: #101750;
+color: $color-blue;
 margin: 0;
 }
 .tick-order .order-paragraph{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 30px;
 text-align: center;
-color: #8D92A7;
+color: $color-grey5;
 padding-top: 28px;
 margin: 0;
 }
 .tick-order .continue-shopping{
-    background: #FF1788;
+    background: $color-pink2;
 border-radius: 3px;
 border: none;
 width: 208px;
 height: 59px;
-font-family: 'Lato';
+font-family: $font-lato;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 30px;
 text-align: center;
-color: #FFFFFF;
+color: $color-white3;
 padding-top: 30px;
 }

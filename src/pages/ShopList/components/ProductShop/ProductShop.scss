@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .accesories-room{
     max-width: 1239px;
     height: 2100px;
@@ -12,19 +13,19 @@
     
 }
 .fashion-item .fashion-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 22px;
     line-height: 26px;
-    color: #151875;
+    color: $color-blue2;
     margin: 0;
 }
 .fashion-item .fashion-results{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 14px;
-color: #8A8FB9;
+color: $color-grey;
 margin: 0;
 padding-top: 8px;
 }
@@ -37,17 +38,17 @@ padding-top: 8px;
     gap: 8px;
 }
 .page-sort .page-sort-heading{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-color: #3F509E;
+color: $color-violin;
 }
 .per-page .per-page-input{
     width:55px;
 height: 25px;
-border-color: #E7E6EF;
+border-color: $color-clear-white;
 margin-top: 7px;
 }
 .page-sort .sort-by{
@@ -57,7 +58,7 @@ margin-top: 7px;
 .page-sort .sort-by-option{
 width: 96px;
 height: 28px;
-border-color: #E7E6EF;
+border-color: $color-clear-white;
 margin-top: 7px;
 }
 .page-sort .view{
@@ -67,7 +68,7 @@ margin-top: 7px;
 .page-sort .view-input{
     width: 162px;
     height: 30px;
-    border-color: #E7E6EF;
+    border-color: $color-clear-white;
     margin-top: 4px;
 }
 .seven-products{

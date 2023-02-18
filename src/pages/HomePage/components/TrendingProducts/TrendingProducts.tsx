@@ -8,45 +8,47 @@ import table from '../TrendingProducts/image 1161.png';
 import seatchair1 from '../TrendingProducts/image 30.png';
 import seatchair2 from '../TrendingProducts/image 19.png';
 import seatchair3 from '../TrendingProducts/image 28.png';
+import { TrendingComponents } from '../TrendingComponents/TrendingComponents';
 
 export const TrendingProducts=()=>{
+    const products= [
+        {
+          id: 1,
+          productChair: trendchair1,
+    cantileverChair: 'Cantilever chair',
+    oldValue: '$26.00',
+    newValue:'$42.00',
+        },
+        {
+          id: 2,
+          productChair: trendchair2,
+          cantileverChair: 'Cantilever chair',
+          oldValue: '$26.00',
+          newValue:'$42.00',
+        },
+        {
+          id: 3,
+          productChair: trendchair3,
+          cantileverChair: 'Cantilever chair',
+          oldValue: '$26.00',
+          newValue:'$42.00',
+        },
+        {
+          id: 4,
+          productChair: trendchair4,
+          cantileverChair: 'Cantilever chair',
+          oldValue: '$26.00',
+          newValue:'$42.00',
+        },
+    ];
     return(
 <>
 <div className='trending-products'>
     <h1 className='trend-heading'>Trending Products</h1>
     <div className='trending-chairs'>
-        <div className='product-chair'>
-            <img src={trendchair1} alt="chairs"/>
-            <h1 className='cantilever-heading'>Cantilever chair</h1>
-            <div className='number-value'>
-                <span className='chair26'>$26.00 </span>
-                <span className='chair42'>$42.00</span>
-            </div>
-        </div>
-        <div className='product-chair'>
-            <img src={trendchair2} alt="chairs"/>
-            <h1 className='cantilever-heading'>Cantilever chair</h1>
-            <div className='number-value'>
-                <span className='chair26'>$26.00 </span>
-                <span className='chair42'>$42.00</span>
-            </div>
-        </div>
-        <div className='product-chair'>
-            <img src={trendchair3} alt="chairs"/>
-            <h1 className='cantilever-heading'>Cantilever chair</h1>
-            <div className='number-value'>
-                <span className='chair26'>$26.00 </span>
-                <span className='chair42'>$42.00</span>
-            </div>
-        </div>
-        <div className='product-chair'>
-            <img src={trendchair4} alt="chairs"/>
-            <h1 className='cantilever-heading'>Cantilever chair</h1>
-            <div className='number-value'>
-                <span className='chair26'>$26.00 </span>
-                <span className='chair42'>$42.00</span>
-            </div>
-        </div>
+    {products.map((product, index) => (
+          <TrendingComponents key={index}  productChair={product. productChair}  cantileverChair={product.cantileverChair} oldValue={product.oldValue} newValue={product.newValue}  />
+        ))}
     </div>
     <div className='three-trending'>
         <div className='black-yellow black-clock'>

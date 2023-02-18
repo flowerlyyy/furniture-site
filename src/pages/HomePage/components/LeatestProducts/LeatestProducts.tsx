@@ -5,8 +5,53 @@ import thirdchair from '../LeatestProducts/Component 8..png';
 import forthchair from '../LeatestProducts/Component 10..png';
 import fifthchair from '../LeatestProducts/Component 11..png';
 import sixthchair from '../LeatestProducts/Component 12..png';
+import { LeatProComponents } from '../LeatProComponents/LeatProComponents';
 
 export const LeatestProducts=()=>{
+    const chairs = [
+        {
+          id: 1,
+          sofaChair: firstchair,
+    sofaCraft: 'Comfort Handy Craft' ,
+    sofaNewValue: '$42.00',
+    sofaOldValue: '$65.00' ,
+        },
+        {
+          id: 2,
+          sofaChair: secondchair,
+          sofaCraft: 'Comfort Handy Craft' ,
+          sofaNewValue: '$42.00',
+          sofaOldValue: '$65.00' ,
+        },
+        {
+          id: 3,
+          sofaChair: thirdchair,
+          sofaCraft: 'Comfort Handy Craft' ,
+    sofaNewValue: '$42.00',
+    sofaOldValue: '$65.00' ,
+        },
+        {
+          id: 4,
+          sofaChair: forthchair,
+          sofaCraft: 'Comfort Handy Craft' ,
+    sofaNewValue: '$42.00',
+    sofaOldValue: '$65.00' ,
+        },
+        {
+          id: 5,
+          sofaChair: fifthchair,
+          sofaCraft: 'Comfort Handy Craft' ,
+          sofaNewValue: '$42.00',
+          sofaOldValue: '$65.00' ,
+        },
+        {
+            id:6,
+            sofaChair: sixthchair,
+            sofaCraft: 'Comfort Handy Craft' ,
+    sofaNewValue: '$42.00',
+    sofaOldValue: '$65.00' ,
+        },
+    ];
     return(
 <>
 <div className="leatest-products">
@@ -18,54 +63,9 @@ export const LeatestProducts=()=>{
         <span>Special Offer</span>
     </div>
     <div className="sofa-types">
-        <div className="sofa-characteristics">
-            <img src={firstchair} alt="frame"/>
-            <div className="sofa-text">
-            <span className="handy-craft">Comfort Handy Craft</span>
-            <span className="new-value">$42.00</span>
-            <span className="old-value">$65.00</span>
-            </div>
-        </div>
-        <div className="sofa-characteristics">
-            <img src={secondchair} alt="frame"/>
-            <div className="sofa-text">
-            <span className="handy-craft">Comfort Handy Craft</span>
-            <span className="new-value">$42.00</span>
-            <span className="old-value">$65.00</span>
-            </div>
-        </div>
-        <div className="sofa-characteristics">
-            <img src={thirdchair} alt="frame"/>
-            <div className="sofa-text">
-            <span className="handy-craft">Comfort Handy Craft</span>
-            <span className="new-value">$42.00</span>
-            <span className="old-value">$65.00</span>
-            </div>
-        </div>
-        <div className="sofa-characteristics">
-            <img src={forthchair} alt="frame"/>
-            <div className="sofa-text">
-            <span className="handy-craft">Comfort Handy Craft</span>
-            <span className="new-value">$42.00</span>
-            <span className="old-value">$65.00</span>
-            </div>
-        </div>
-        <div className="sofa-characteristics">
-            <img src={fifthchair} alt="frame"/>
-            <div className="sofa-text">
-            <span className="handy-craft">Comfort Handy Craft</span>
-            <span className="new-value">$42.00</span>
-            <span className="old-value">$65.00</span>
-            </div>
-        </div>
-        <div className="sofa-characteristics">
-            <img src={sixthchair} alt="frame"/>
-            <div className="sofa-text">
-            <span className="handy-craft">Comfort Handy Craft</span>
-            <span className="new-value">$42.00</span>
-            <span className="old-value">$65.00</span>
-            </div>
-        </div>
+        {chairs.map((chair, index) => (
+          <LeatProComponents key={index} sofaChair={chair.sofaChair}  sofaCraft={chair.sofaCraft} sofaNewValue={chair.sofaNewValue} sofaOldValue={chair.sofaOldValue}  />
+        ))}
     </div>
 </div>
 </>

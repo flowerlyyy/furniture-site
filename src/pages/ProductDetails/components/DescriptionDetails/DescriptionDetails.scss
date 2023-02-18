@@ -1,9 +1,10 @@
+@import '../../../../variables';
 .additional-info-frame{
     max-width: 1920px;
     height: 649px;
     margin-right: auto;
     margin-left: auto;
-    background: #F9F8FE;
+    background: $color-white9;
     margin-top: 131px;
 }
 .additional-info{
@@ -15,32 +16,32 @@
     gap: 70px;
 }
 .description-navbar .navbar-paragraph{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 24px;
 line-height: 28px;
-color: #151875;
+color: $color-blue2;
 }
 .additional-info .info-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 22px;
     line-height: 26px;
-    color: #151875;
+    color: $color-blue2;
     margin: 0;
     padding-top: 61px;
 }
 .additional-info .info-paragraph{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 16px;
     line-height: 29px;
-    color: #A9ACC6;
+    color: $color-grey6;
     margin: 0;
     padding-top: 14px;
 }
 .additional-info .more-details{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 22px;
     line-height: 26px; 
-    color: #151875;
+    color: $color-blue2;
     margin: 0;
     padding-top: 36px;
 }
@@ -51,10 +52,10 @@ color: #151875;
     height: 24px;
 }
 .arrow-fact .arrow-paragraph{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
     font-size: 16px;
     line-height: 29px;
-    color: #A9ACC6;
+    color: $color-grey6;
     margin-top: -1px;
 }
 .arrow-fact .arrow-icon{

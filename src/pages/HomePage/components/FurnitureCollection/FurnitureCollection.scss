@@ -1,5 +1,6 @@
+@import '../../../../variables';
 .furniture-collection{
-    background: #F2F0FF;
+    background: $color-white11;
     max-width: 1920px;
     margin-right: auto;
     margin-left: auto;
@@ -18,42 +19,42 @@
     margin-left: -60px;
 }
 .best-furniture .castle{
-    font-family: 'Lato';
+    font-family: $font-lato;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
-    color: #FB2E86;
+    color: $color-pink;
     margin: 0;
 }
 .best-furniture .explanation{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 53px;
 line-height: 70px;
 letter-spacing: 0.015em;
-color: #000000;
+color: $color-black;
 margin: 0;
 padding-top: 12px;
 }
 .best-furniture .text{
-    font-family: 'Lato';
+    font-family: $font-lato;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
-    color: #8A8FB9;
+    color: $color-grey;
     margin: 0;
     padding-top: 12px;
 }
 .best-furniture .buy-now{
-    background: #FB2E86;
+    background: $color-pink;
 border-radius: 2px;
-font-family: 'Josefin Sans';
+font-family: $font-josefin;
 font-size: 17px;
 line-height: 20px;
 letter-spacing: 0.02em;
-color: #FFFFFF;
-border-color: white;
+color: $color-white3;
+border-color: $color-white;
 margin: 0;
 margin-top: 27px;
 width: 163px;

@@ -1,5 +1,6 @@
+@import '../../../../variables';
 .shop-box-frame{
-    background-color: #FFFFFF;
+    background-color: $color-white3;
     box-shadow: 0px 0px 25px 5px rgba(246, 246, 253, 0.5);
     width: 1141px;
     height: 254px;
@@ -22,10 +23,10 @@
     gap: 18px;
 }
 .heading-button .room-heading{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 19.8783px;
 line-height: 23px;
-color: #111C85;
+color: $color-blue5;
 margin: 0;
 }
 .circle-button.circle-button{
@@ -48,29 +49,30 @@ margin: 0;
     gap: 10px;
 }
 .value-rating .new-number{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 15.4609px;
 line-height: 18px;
-color: #111C85;
+color: $color-blue5;
 margin: 0;
 }
 .value-rating .old-number{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 15.4609px;
 line-height: 18px;
 text-decoration-line: line-through;
-color: #FF2AAA;
+color: $color-pink5;
 margin: 0;
 }
 .room-comment .room-paragraph{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 400;
 font-size: 17.6696px;
 line-height: 31px;
-color: #9295AA;
+color: $color-grey7;
 margin: 0;
 padding-top: 11px;
+white-space: pre-line;
 }
 .circle-icon{
     margin-top: 10px;

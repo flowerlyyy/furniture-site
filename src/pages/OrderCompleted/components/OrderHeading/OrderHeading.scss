@@ -1,27 +1,28 @@
+@import '../../../../variables';
 .order-heading{
     max-width: 1920px;
     height: 286px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #F6F5FF;
+    background-color: $background-white;
 }
 .page-navbar{
     padding: 96px 0 126px 370px;
 }
 .page-navbar .order-text{
-    font-family: 'Josefin Sans';
+    font-family: $font-josefin;
 font-size: 36px;
 line-height: 42px;
-color: #101750;
+color: $color-blue;
 margin: 0;
 }
 .page-navbar span{
-    font-family: 'Lato';
+    font-family: $font-lato;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-color: #000000;
+color: $color-black;
 margin: 0;
 padding-top: 9px;
 }

@@ -1,0 +1,21 @@
+@import '../../../../variables';
+.contact-part{
+    display: flex;
+    gap: 15px;
+}
+.contact-part .colored-circle{
+    width: 45px;
+    height: 45px;
+}
+.phone-gmail{
+     margin-top: 5px;
+}
+.phone-gmail .contact-address{
+    font-family: $font-lato;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+color: $color-grey;
+margin: 0;
+}

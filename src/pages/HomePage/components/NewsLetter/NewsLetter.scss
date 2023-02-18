@@ -1,3 +1,4 @@
+@import '../../../../variables';
 .newsletter{
     background-image:url("Rectangle 102 (2).png");
     max-width: 1920px;
@@ -11,18 +12,18 @@
     flex-direction: column;
 }
 .decoration .subscribe-newsletter{
-font-family: 'Josefin Sans';
+font-family: $font-josefin;
 font-size: 35px;
 line-height: 155%;
 text-align: center;
 letter-spacing: 0.015em;
-color: #151875;
+color: $color-blue2;
 justify-content: center;
 padding-top: 174px;
 margin: 0;
 }
 .decoration .newsletter-button{
-    background: #FB2E86;
+    background: $color-pink;
 border-radius: 2px;
 margin-right: auto;
 margin-left: auto;
@@ -31,9 +32,9 @@ border: none;
 text-align: center;
 width: 173px;
 height: 49px;
-font-family: 'Josefin Sans';
+font-family: $font-josefin;
 font-size: 17px;
 line-height: 20px;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: $color-white3;
 }
