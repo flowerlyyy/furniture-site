@@ -1,0 +1,81 @@
+@import '../../../../variables';
+.shop-box-frame{
+    background-color: $color-white3;
+    box-shadow: 0px 0px 25px 5px rgba(246, 246, 253, 0.5);
+    width: 921px;
+    height: 230px;
+    row-gap: 28px;
+}
+.shop-box{
+    display: flex;
+    gap: 32px;
+    padding-left: 20px;
+}
+.shop-box .room-image{
+    width: 284px;
+    height: 194px;
+    padding-top: 16px;
+}
+.room-comment{
+    padding-top: 52px;
+}
+.heading-button{
+    display: flex;
+    gap: 18px;
+}
+.heading-button .room-heading{
+    font-family: $font-josefin;
+font-size: 19.8783px;
+line-height: 23px;
+color: $color-blue5;
+margin: 0;
+}
+.circle-button.circle-button{
+    display: flex;
+    gap: 6px;
+    padding-top: 8px;
+    padding-left: 114px;
+    gap: 10px;
+}
+.circle-button .product-color{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 3px solid;
+    border: none;
+}
+.value-rating{
+    display: flex;
+    padding-top: 14px;
+    gap: 10px;
+}
+.value-rating .new-number{
+    font-family: $font-josefin;
+font-size: 15.4609px;
+line-height: 18px;
+color: $color-blue5;
+margin: 0;
+}
+.value-rating .old-number{
+    font-family: $font-josefin;
+font-size: 15.4609px;
+line-height: 18px;
+text-decoration-line: line-through;
+color: $color-pink5;
+margin: 0;
+}
+.room-comment .room-paragraph{
+    font-family: $font-lato;
+font-style: normal;
+font-weight: 400;
+font-size: 17.6696px;
+line-height: 31px;
+color: $color-grey7;
+margin: 0;
+padding-top: 11px;
+white-space: pre-line;
+}
+.circle-icon{
+    width: 144px;
+    height: 60px;
+}

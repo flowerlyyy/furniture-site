@@ -14,6 +14,7 @@ import { GridDefault } from './pages/GridDefault/GridDefault';
 import { ShopList } from './pages/ShopList/ShopList';
 import { ProductDetails } from './pages/ProductDetails/ProductDetails';
 import { ShoppingCard } from './pages/ShoppingCard/ShoppingCard';
+import { ShopLeftSidebar } from './pages/ShopLeftSidebar/ShopLeftSidebar';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/order-completed" element={<OrderCompleted  />} />
         <Route path="/product-details" element={<ProductDetails />} />
         <Route path="/shopping-card" element={<ShoppingCard  />} />
+        <Route path="/left-sidebar" element={<ShopLeftSidebar  />} />
       </Routes>
                 </main>
       <Footer/>

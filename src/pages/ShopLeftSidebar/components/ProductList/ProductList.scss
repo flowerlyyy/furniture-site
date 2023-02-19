@@ -1,0 +1,136 @@
+@import '../../../../variables';
+.left-sidebar{
+    display: flex;
+    gap: 35px;
+}
+.features-column{
+    margin-top: 100px;
+}
+.product-brand .brand-heading{
+    font-family: $font-josefin;
+font-size: 20px;
+line-height: 30px;
+color: $color-blue2;
+margin: 0;
+text-decoration: underline;
+}
+.product-brand .product-paragraph{
+    font-family: $font-lato;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: $color-grey12;
+margin: 0;
+padding-top: 8px;
+}
+.product-paragraph2{
+    font-family: $font-lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: $color-grey12;
+    margin: 0;
+}
+.input-search{
+    background: $color-white3;
+border: 1px solid $color-grey13;
+border-radius: 3px;
+width: 203px;
+height: 31px;
+margin-top: 18px;
+}
+.circle-combine{
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    row-gap: 7px;
+}
+.circle-name{
+    display: flex;
+    gap: 4px;
+}
+.circle-name .circle-color{
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin-top: 7px;
+}
+.accesories-room{
+    max-width: 1239px;
+    height: 2100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 124px;
+    margin-bottom :200px;
+}
+.shop-accesories{
+    display: flex;
+    gap: 180px;
+    
+}
+.fashion-item .fashion-heading{
+    font-family: $font-josefin;
+    font-size: 22px;
+    line-height: 26px;
+    color: $color-blue2;
+    margin: 0;
+}
+.fashion-item .fashion-results{
+    font-family: $font-lato;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: $color-grey;
+margin: 0;
+padding-top: 8px;
+}
+.page-sort{
+    display: flex;
+    gap: 26px;
+}
+.page-sort .per-page{
+    display: flex;
+    gap: 8px;
+}
+.page-sort .page-sort-heading{
+    font-family: $font-lato;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: $color-violin;
+}
+.per-page .per-page-input{
+    width:55px;
+height: 25px;
+border-color: $color-clear-white;
+margin-top: 7px;
+}
+.page-sort .sort-by{
+    display: flex;
+    gap: 8px;
+}
+.page-sort .sort-by-option{
+width: 96px;
+height: 28px;
+border-color: $color-clear-white;
+margin-top: 7px;
+}
+.page-sort .view{
+    display: flex;
+    gap: 60px;
+}
+.page-sort .view-input{
+    width: 162px;
+    height: 30px;
+    border-color: $color-clear-white;
+    margin-top: 4px;
+}
+.seven-products{
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+    margin-top: 76px;
+}

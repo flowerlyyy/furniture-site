@@ -1,0 +1,28 @@
+@import '../../../../variables';
+.sidebar-heading{
+    max-width: 1920px;
+    height: 286px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $background-white;
+}
+.page-navbar{
+    padding: 96px 0 126px 370px;
+}
+.page-navbar .sidebar-text{
+    font-family: $font-josefin;
+font-size: 36px;
+line-height: 42px;
+color: $color-blue;
+margin: 0;
+}
+.page-navbar span{
+    font-family: $font-lato;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: $color-black;
+margin: 0;
+padding-top: 9px;
+}

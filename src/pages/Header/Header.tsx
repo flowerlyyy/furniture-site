@@ -35,11 +35,11 @@ export const Header =()=>{
     <option>MAN</option>
 </select>
 <div className="login-part">
-    <p className="header-text-style">Login</p>
+    <a href="/login" className="header-link-style">Login</a>
     <img className="profile-icon" src={profileicon} alt="profileicon" />
 </div>
 <div className="wish-list">
-    <p className="header-text-style">wishlist</p>
+    <a href="#" className="header-link-style">wishlist</a>
     <img className="heart-icon" src={hearticon} alt="hearticon"/>
 </div>
 <img className="shopping" src={shoppingicon} alt="shoppingicon"/>

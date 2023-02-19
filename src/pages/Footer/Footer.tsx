@@ -48,10 +48,10 @@ export const Footer=()=>{
  <div className="footer-down">
     <div className="footer-two">
     <p className="all-rights">©Webecy - All Rights Reserved</p>
-    <div className="media-logos">
+    <div className="media-logos">        
         <img src={facebook} alt="facebook" />
         <img src={instagram} alt="instagram"/>
-        <img src={twitter} alt="twitter"/>
+        <img src={twitter} alt="twitter"/> 
     </div>
  </div>
  </div>
