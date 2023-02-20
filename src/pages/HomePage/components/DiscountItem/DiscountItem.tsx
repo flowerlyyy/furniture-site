@@ -21,7 +21,7 @@ export const DiscountItem=()=>{
             <li>Simple neutral colours.</li>
             <li>Simple neutral colours.</li>
           </ul>
-          <button className="discount-button">Shop Now</button>
+        <a href='/grid-default'> <button className="discount-button">Shop Now</button></a>
         </div>
         <img src={sofacompact} alt="sofacompact"/>
     </div>

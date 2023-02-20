@@ -11,7 +11,7 @@ export const FurnitureCollection=()=>{
             <p className="castle">Best Furniture For Your Castle....</p>
             <h1 className="explanation">New Furniture Collection <br/> Trends in 2020</h1>
             <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing <br/> in phasellus non in justo.</p>
-            <button className="buy-now">Shop Now</button>
+            <a href='/grid-default'><button className="buy-now">Shop Now</button></a>
         </div>
         <img src={pinksofa} alt="pink-sofa" />
     </div>

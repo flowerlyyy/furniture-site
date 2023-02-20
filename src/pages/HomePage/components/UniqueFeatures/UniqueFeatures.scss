@@ -63,6 +63,9 @@ letter-spacing: 0.02em;
 color: $color-white3;
 border-color: $color-white;
 }
+.addcard:hover{
+    background-color: #FF00FF;
+}
 .cards .value{
     font-family: $font-josefin;
 font-size: 14px;

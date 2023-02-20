@@ -14,7 +14,7 @@ export const UniqueFeatures=()=>{
                 <li className='green-circle'><span>Arms, backs and seats are structurally reinforced</span></li>
             </ul>
             <div className="cards">
-                <button className="addcard">Add to Card</button>
+               <a href='/shopping-card'><button className="addcard">Add to Card</button></a>
                 <p className="value">B&B Italian Sofa <br/> $32.00</p>
             </div>
         </div>
